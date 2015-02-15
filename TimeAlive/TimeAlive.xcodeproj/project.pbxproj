@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5535546C187F9E9000AB26ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5535546B187F9E9000AB26ED /* Foundation.framework */; };
+		5535546F187F9E9000AB26ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5535546E187F9E9000AB26ED /* main.m */; };
+		55355473187F9E9000AB26ED /* TimeAlive.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55355472187F9E9000AB26ED /* TimeAlive.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55355466187F9E9000AB26ED /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				55355473187F9E9000AB26ED /* TimeAlive.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55355468187F9E9000AB26ED /* TimeAlive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimeAlive; sourceTree = BUILT_PRODUCTS_DIR; };
+		5535546B187F9E9000AB26ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5535546E187F9E9000AB26ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55355471187F9E9000AB26ED /* TimeAlive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeAlive-Prefix.pch"; sourceTree = "<group>"; };
+		55355472187F9E9000AB26ED /* TimeAlive.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TimeAlive.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55355465187F9E9000AB26ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5535546C187F9E9000AB26ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5535545F187F9E9000AB26ED = {
+			isa = PBXGroup;
+			children = (
+				5535546D187F9E9000AB26ED /* TimeAlive */,
+				5535546A187F9E9000AB26ED /* Frameworks */,
+				55355469187F9E9000AB26ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55355469187F9E9000AB26ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55355468187F9E9000AB26ED /* TimeAlive */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5535546A187F9E9000AB26ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5535546B187F9E9000AB26ED /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5535546D187F9E9000AB26ED /* TimeAlive */ = {
+			isa = PBXGroup;
+			children = (
+				5535546E187F9E9000AB26ED /* main.m */,
+				55355472187F9E9000AB26ED /* TimeAlive.1 */,
+				55355470187F9E9000AB26ED /* Supporting Files */,
+			);
+			path = TimeAlive;
+			sourceTree = "<group>";
+		};
+		55355470187F9E9000AB26ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55355471187F9E9000AB26ED /* TimeAlive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55355467187F9E9000AB26ED /* TimeAlive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55355476187F9E9000AB26ED /* Build configuration list for PBXNativeTarget "TimeAlive" */;
+			buildPhases = (
+				55355464187F9E9000AB26ED /* Sources */,
+				55355465187F9E9000AB26ED /* Frameworks */,
+				55355466187F9E9000AB26ED /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeAlive;
+			productName = TimeAlive;
+			productReference = 55355468187F9E9000AB26ED /* TimeAlive */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55355460187F9E9000AB26ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Oscar;
+			};
+			buildConfigurationList = 55355463187F9E9000AB26ED /* Build configuration list for PBXProject "TimeAlive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5535545F187F9E9000AB26ED;
+			productRefGroup = 55355469187F9E9000AB26ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55355467187F9E9000AB26ED /* TimeAlive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55355464187F9E9000AB26ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5535546F187F9E9000AB26ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55355474187F9E9000AB26ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55355475187F9E9000AB26ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55355477187F9E9000AB26ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeAlive/TimeAlive-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55355478187F9E9000AB26ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeAlive/TimeAlive-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55355463187F9E9000AB26ED /* Build configuration list for PBXProject "TimeAlive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55355474187F9E9000AB26ED /* Debug */,
+				55355475187F9E9000AB26ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55355476187F9E9000AB26ED /* Build configuration list for PBXNativeTarget "TimeAlive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55355477187F9E9000AB26ED /* Debug */,
+				55355478187F9E9000AB26ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55355460187F9E9000AB26ED /* Project object */;
+}
